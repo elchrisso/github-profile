@@ -26,3 +26,8 @@
 .twocoldiv {
   column-count: 2;
 }
+
+.App {
+  max-width: 1200px;
+  margin: auto;
+}

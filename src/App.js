@@ -17,8 +17,6 @@ class App extends Component {
               <ProjectBox />
               <ProjectBox />
               <ProjectBox />
-            </div>
-            <div className="col">
               <ProjectBox />
               <ProjectBox />
               <ProjectBox />

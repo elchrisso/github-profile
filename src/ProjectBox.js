@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
-import './App.css';
+import React, {Component} from 'react'
+import './App.css'
 
-class ProjectBox extends React.Component {
+class ProjectBox extends Component {
   render() {
     return(
       <div className="jumbotron">

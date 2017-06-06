@@ -1,20 +1,30 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import ProjectBox from './ProjectBox';
+import React, { Component } from 'react'
+import './App.css'
+import ProjectBox from './ProjectBox'
+import Navbar from './Navbar'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+        <Navbar/>
+        <div className="row">
+          <section className="col-4">
+            <ProjectBox />
+          </section>
+          <div className="twocoldiv">
+            <div className="col">
+              <ProjectBox />
+              <ProjectBox />
+              <ProjectBox />
+            </div>
+            <div className="col">
+              <ProjectBox />
+              <ProjectBox />
+              <ProjectBox />
+            </div>
+          </div>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <ProjectBox />
       </div>
     );
   }

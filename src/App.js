@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import './App.css'
 import ProjectBox from './ProjectBox'
 import Navbar from './Navbar'
+import UserAvatar from './UserAvatar'
+import ProjectNavTabs from './ProjectNavTabs'
 
 class App extends Component {
   render() {
@@ -9,19 +11,22 @@ class App extends Component {
       <div className="App">
         <Navbar/>
         <div className="row">
-          <section className="col-4">
-            <ProjectBox />
+          <section className="col-3">
+            <UserAvatar />
           </section>
-          <div className="twocoldiv">
+          <section className="col-9">
             <div className="col">
-              <ProjectBox />
-              <ProjectBox />
-              <ProjectBox />
-              <ProjectBox />
-              <ProjectBox />
-              <ProjectBox />
+              <ProjectNavTabs/>
             </div>
-          </div>
+            <div className="twocoldiv">
+                <ProjectBox />
+                <ProjectBox />
+                <ProjectBox />
+                <ProjectBox />
+                <ProjectBox />
+                <ProjectBox />
+            </div>
+          </section>
         </div>
       </div>
     );

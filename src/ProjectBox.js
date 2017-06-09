@@ -11,9 +11,9 @@ class ProjectBox extends Component {
       {this.props.projectList.map((project) => {
         return(
           <div className="jumbotron">
-            <h1>{project}</h1>
+            <h1>{project[0]}</h1>
             <p>...</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">{project}</a></p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">{project[1]}</a></p>
           </div>
         )
       })}

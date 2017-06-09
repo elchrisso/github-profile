@@ -10,7 +10,14 @@ class App extends Component {
     super()
     this.state = {
       imageUrl: 'https://avatars0.githubusercontent.com/u/19591944?v=3&s=460',
-      projects: [ "project1", "project2", "project3", "project4", "project5", "project6" ]
+      projects: [
+        ["project1", "this is the first fake project in the list"],
+        ["project2", "this is not the first fake in the list"],
+        ["project3", "more fake stuff"],
+        ["project4", "fake project descriptions for dayzzzzzzz"],
+        ["project5", "more of the same"],
+        ["project6", "the best fake project, at least until another is added"]
+        ]
     }
   }
 

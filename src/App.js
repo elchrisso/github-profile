@@ -23,7 +23,7 @@ class App extends Component {
             <UserAvatar imageUrl={this.state.imageUrl}/>
           </section>
           <section className="col-9">
-            <div className="col">
+            <div className="container-fluid">
               <ProjectNavTabs/>
             </div>
             <div className="twocoldiv">

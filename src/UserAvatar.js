@@ -9,8 +9,14 @@ class UserAvatar extends Component {
 
   render () {
     return (
-      <img src={this.props.imageUrl} alt="" />
-      //<div class="btn-group btn-group-lg" role="group" aria-label="...">...</div>
+      <div>
+        <img src={this.props.imageUrl} alt="" />
+        <div className="btn-group">
+          <input type="text" className="form-control"/>
+          <button className="btn">i am a button</button>
+        </div>
+      </div>
+
     )
   }
 }

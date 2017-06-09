@@ -9,12 +9,11 @@ class UserAvatar extends Component {
 
   render () {
     return (
-      <div>
-        <img src={this.props.imageUrl} alt="" />
-        <div className="btn-group">
-          <input type="text" className="form-control"/>
-          <button className="btn">i am a button</button>
-        </div>
+      <div className="avatarDiv">
+        <img src={this.props.imageUrl} className="avatarImage" alt="" />
+        <h2>chris brown</h2>
+        <a href="www.google.com" className="href">Add a bio</a>
+        <button className="btn">i am a button</button>
       </div>
 
     )

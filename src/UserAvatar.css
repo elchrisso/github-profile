@@ -1,3 +1,11 @@
 img {
   width: 100%;
 }
+
+.avatarDiv {
+  text-align: left;
+}
+
+.avatarImage {
+  border-radius: 5px;
+}
